@@ -1,0 +1,8 @@
+set_abc=0
+assert_cdh_abc=ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad
+set_msg=0
+cred_cdh_msg=248d6a61d20638b8e5c026930c3e6039a33ce45964ff2167f6ecedd419db06c1
+set_twice=-7
+info_versions=0
+strerr=FIDO_ERR_INVALID_ARGUMENT
+kat_done=1

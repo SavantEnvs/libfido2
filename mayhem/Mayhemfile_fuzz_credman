@@ -1,0 +1,9 @@
+project: savantenvs/libfido2
+target: fuzz_credman
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_credman/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_credman
+    libfuzzer: true
+    timeout: 5

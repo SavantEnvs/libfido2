@@ -1,0 +1,9 @@
+project: savantenvs/libfido2
+target: fuzz_attobj
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_attobj/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_attobj
+    libfuzzer: true
+    timeout: 5
